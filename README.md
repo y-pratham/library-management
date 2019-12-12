@@ -10,7 +10,7 @@ Creating rest apis using go language for library management
 |API Name       | Method        | JSON                                              | DESCRIPTION |
 |:-------------:|:-------------:|:-------------------------------------------------:|:------------------------------------------------:
 | /             | GET           |                                                   | Welcome User|
-| /addBook      | POST          |{"UserID":"1234","BookID":"2","rating": 4.1,"Title":"book 2"} | Only the admin can add books whose user id is 1234|
+| /addBook      | POST          |{"UserID":"1234","BookID":"2","rating": 4.1,"Title":"book 2"} | Only the admin can add books **whose user id is 1234**|
 |               |               |                                                   |
 | /books        | GET           |                                                   | Gives a list of all books|
 |               |               |                                                   | 
@@ -28,6 +28,6 @@ Creating rest apis using go language for library management
 |               |               |                                                   |
 | /return/{id}  | POST          |   {  "Description" : "user id" }                  |Allows user to return a book|
 |               |               |                                                   |
-| /rate/{id}    | POST          |   {  "Description" : "user id" }                  |Allows user to rate a particular book|
+| /rate/{id}    | POST          |   {  "Description" : "rating" }                   |Allows user to rate a particular book|
 |               |               |                                                   |
 
