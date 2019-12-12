@@ -8,7 +8,7 @@ Creating rest apis using go language for library management
 ### REST APIs
 
 |API Name       | Method        | JSON                                              | DESCRIPTION |
-| ------------- |:-------------:| -------------------------------------------------:|-------------------------------------------------:
+|:-------------:|:-------------:|:-------------------------------------------------:|:------------------------------------------------:
 | /             | GET           |                                                   | Welcome User|
 | /addBook      | POST          |{"UserID":"1234","BookID":"2","rating": 4.1,"Title":"book 2"} | Only the admin can add books whose user id is 1234|
 |               |               |                                                   |
