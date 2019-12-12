@@ -1,7 +1,7 @@
 # library-management
 Creating rest apis using go language for library management
 
-1. Clone this code
+1. Download this code
 2. In command prompt within the specified folder execute `$ go run main.go` 
 3. Make sure you already have Gorilla Mux, else install it in the GOPATH using `$ go get -u github.com/gorilla/mux`
 
